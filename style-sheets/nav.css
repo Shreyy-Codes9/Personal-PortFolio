@@ -1,0 +1,26 @@
+/* navbar links */
+
+.C-navbar{
+    overflow: hidden;
+    position: relative;
+}
+.C-navbar .nav-link::before{
+    content: ;
+    width: 0%;
+    height: 30px;
+}
+
+#hero-section{
+    height: 70vh;
+    
+}
+
+#container-1{
+    height: 90%;
+    background: rgba(var(--bs-primary-bg-subtle),1) ;
+   
+    
+}
+
+
+
