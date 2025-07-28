@@ -1,0 +1,130 @@
+/* color themes */
+:root {
+
+    --darkHex:  #004bcb;
+    --primaryHex: #3F4F44;
+    --secondaryHex: #A27B5C;
+    --backgroundHex: #DCD7C9;
+    --darkrgb: 44, 57, 48;
+    --primaryrgb: 63, 79, 68;
+    --secondaryrgb: 162, 123, 92;
+    --backgroundrgb: 220, 215, 201;
+
+    --dark1Hex: #3D8D7A;
+    --primary2Hex: #B3D8A8;
+    --secondary2Hex: #9482ee;
+    --background2Hex: #A3D1C6;
+    --dark1rgb: 61, 141, 122;
+    --primary2rgb: 179, 216, 168;
+    --secondary2rgb: 251, 255, 228;
+    --background2rgb: 163, 209, 198;
+
+    /* --dark3Hex: #070F2B;
+    --primary3Hex: #1b1976;
+    --secondary3Hex: #535C91;
+    --background3Hex: #9290C3;
+    --dark3rgb: 7, 15, 43;
+    --primary3rgb: 27, 26, 85;
+    --secondary3rgb: 83, 92, 145;
+    --background3rgb: 146, 144, 195; */
+}
+
+/* custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Fascinate+Inline&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Orbitron:wght@400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+
+
+/* custom-body */
+body {
+    background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.03), transparent 60%),
+    linear-gradient(135deg, #22222b, hsl(0, 0%, 0%), #0b0b0b);
+    font-family: "Merriweather", serif;    
+    
+}
+
+
+
+
+/* custom classes */
+/* === Custom Background Colors === */
+.custom-bg-dark {
+    background-color: var(--darkHex) !important;
+}
+
+.custom-bg-primary {
+    background-color: var(--primaryHex) !important;
+}
+
+.custom-bg-secondary {
+    background-color: var(--secondaryHex) !important;
+}
+
+.custom-bg-base {
+    background-color: var(--backgroundHex) !important;
+}
+
+.custom-bg-dark1 {
+    background-color: var(--dark1Hex) !important;
+}
+
+.custom-bg-primary2 {
+    background-color: var(--primary2Hex) !important;
+}
+
+.custom-bg-secondary2 {
+    background-color: var(--secondary2Hex) !important;
+}
+
+.custom-bg-base2 {
+    background-color: var(--background2Hex) !important;
+}
+
+/* === Custom Text Colors === */
+.custom-text-dark {
+    color: var(--darkHex) !important;
+}
+
+.custom-text-primary {
+    color: var(--primaryHex) !important;
+}
+
+.custom-text-secondary {
+    color: var(--secondaryHex) !important;
+}
+
+.custom-text-base {
+    color: var(--backgroundHex) !important;
+}
+
+.custom-text-dark1 {
+    color: var(--dark1Hex) !important;
+}
+
+.custom-text-primary2 {
+    color: var(--primary2Hex) !important;
+}
+
+.custom-text-secondary2 {
+    color: var(--secondary2Hex) !important;
+}
+
+.custom-text-base2 {
+    color: var(--background2Hex) !important;
+}
+
+/* === Optional: Border Colors === */
+.custom-border-dark {
+    border-color: var(--darkHex) !important;
+}
+
+.custom-border-primary {
+    border-color: var(--primaryHex) !important;
+}
+
+.custom-border-secondary {
+    border-color: var(--secondaryHex) !important;
+}
+
+
+
+
